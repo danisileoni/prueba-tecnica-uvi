@@ -1,3 +1,4 @@
+import { Carousel } from "./components/Carousel"
 import { Description, 
          Footer, 
          FormContact, 
@@ -13,6 +14,8 @@ export const App = () => {
       <Description/>
 
       <Services/>
+
+      <Carousel/>
 
       <Plans/>
 

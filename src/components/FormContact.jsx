@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { uploadsfile, uploadsform } from "../firebase/config";
-import fs from 'fs';
+import { Toaster, toast } from "sonner";
 
 
 export const FormContact = () => {
@@ -35,6 +35,7 @@ export const FormContact = () => {
       await uploadsform(JSON.stringify(form));
       setForm({...valueInitial});
       setSent(true);
+      toast.success('Enviado Correctamente!');
       
     } catch (error) {
       console.error(error);
@@ -83,10 +84,8 @@ export const FormContact = () => {
           <option value="plan3">Plan 3</option>
         </select>
       </div>
-
+      <Toaster richColors/>
       <button className="btn btn-success col-md-5 mt-2 p-1 text-black" id="btn-send" type="submit" color="primary" disabled={sent}>Enviar</button>
-      {sent && <p className="text-white" id="sent-form">Formulario enviado correctamente!</p>}
-
     </form>
     </>
   );

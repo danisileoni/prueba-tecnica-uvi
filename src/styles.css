@@ -60,8 +60,11 @@ nav {
 .div-plans {
   display: flex;
   margin: auto;
-  margin-top: 70px;
   justify-content: center;
+}
+
+#plans-h1 {
+  padding-top: 70px;
 }
 
 .plan-container {
@@ -188,6 +191,3 @@ label {
     padding: 35px 0px;
   }
 }
-
-
-

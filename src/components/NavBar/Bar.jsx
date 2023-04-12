@@ -29,7 +29,7 @@ export const Bar = () => {
             <a href='#services' className='nav-link'>Servicios</a>
           </li>
           <li className='nav-item'>
-            <a href='#plans' className='nav-link'>Planes</a>
+            <a href='#plans-h1' className='nav-link'>Planes</a>
           </li>
           <li className='nav-item'>
             <a href='#contact-us' className='nav-link' id="contact-bar">Contactos</a>

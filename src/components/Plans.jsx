@@ -3,7 +3,8 @@ import { PlansViwe } from "./Plans/PlansViwe"
 export const Plans = () => {
   return (
     <>
-     <div className="div-plans" id="plans">
+     <h1 className="text-white d-flex justify-content-center" id="plans-h1">Planes</h1>
+     <div className="div-plans" >
       <PlansViwe 
         title={'Example 1'} 
         characteristics={['example', 'example', 'example', 'example']}
