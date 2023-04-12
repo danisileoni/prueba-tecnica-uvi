@@ -1,7 +1,7 @@
 # prueba-tecnica-uvi
 
 ### Acerca de
-Esto es una prueba tecnica que realice para la empresa Uvi
+Esto es una prueba tecnica que realice para la empresa Uvi \
 Linkedin: https://www.linkedin.com/company/universo-i/
 
 ### Notas
