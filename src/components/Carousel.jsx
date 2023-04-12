@@ -61,10 +61,10 @@ export const Carousel = () => {
   return (
     <>
      <h1 className="text-white text-center">Recomendaciones</h1>
-      <CarouselButtonContainer className="justify-content-center">
-        <CarouseButton onClick={previous}>{'⟨'}</CarouseButton>
-        <CarouselImg src={selectedImage} alt="recomendated" className={loaded ? "loaded" : ""} onLoad={() => setLoaded(true)}/>
-        <CarouseButton onClick={next}><b>{'⟩'}</b></CarouseButton>
+      <CarouselButtonContainer id="carousel-div" className="justify-content-center">
+        <CarouseButton id="carousel-button-1" onClick={previous}>{'⟨'}</CarouseButton>
+        <CarouselImg id="carousel-img" src={selectedImage} alt="recomendated" className={loaded ? "loaded" : ""} onLoad={() => setLoaded(true)}/>
+        <CarouseButton id="carousel-button-2" onClick={next}><b>{'⟩'}</b></CarouseButton>
       </CarouselButtonContainer>
     </>
   )

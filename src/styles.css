@@ -172,6 +172,23 @@ label {
 }
 
 @media screen and (max-width:800px) {
+  #carousel-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #carousel-button-1 {
+    margin-bottom: 10px;
+  }
+  
+  #carousel-button-2 {
+    margin-top: 10px;
+  }
+
+  #carousel-img {
+    width: 95%;
+  }
+  
   .div-plans {
     display: grid;
   }
